@@ -13,7 +13,6 @@ base_datos = {
         {"id": 6, "nombre": "Dario"}
         {"id": 7, "nombre": "Andres"}
         {"id": 8, "nombre": "Stivel"}
-    
     ]
 }
 # Ruta para obtener los usuarios
@@ -22,4 +21,4 @@ def obtener_usuarios():
     return jsonify(base_datos["usuarios"]) # Devuelve la lista de usuarios en formato 
 JSON
 app.run(port=5000)
-   
+
