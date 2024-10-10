@@ -13,4 +13,3 @@ def obtener_usuarios():
 
 if __name__ == '__main__':
     obtener_usuarios()  # Ejecuta la función al iniciar el script
-    print('funciono correctamente')
